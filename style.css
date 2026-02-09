@@ -3,7 +3,7 @@ Projeto de estudo: uso de variáveis CSS (CSS Custom Properties)
 Objetivo: centralizar cores e facilitar manutenção do tema
 */
 
-
+ /* Tema claro (padrão) */
 :root {
   /* Fundo da página */
   --cor-fundo: #f5f7fa;
@@ -32,6 +32,26 @@ Objetivo: centralizar cores e facilitar manutenção do tema
   --cor-accento: #ff6f61; /* pode ser usado para detalhes ou alertas */
 }
 
+body.dark {
+  --cor-fundo: #0f172a;
+  --cor-card-fundo: #1e293b;
+  --cor-card-sombra: rgba(0, 0, 0, 0.6);
+
+  --cor-texto-principal: #e5e7eb;
+  --cor-texto-secundario: #9ca3af;
+
+  --cor-botao-fundo: #3b82f6;
+  --cor-botao-hover: #2563eb;
+
+  --cor-input-fundo: #020617;
+  --cor-input-borda: #334155;
+  --cor-input-texto: #e5e7eb;
+  --cor-input-focus: #60a5fa;
+
+  --cor-accento: #fb7185;
+}
+
+
 
 * {
     padding: 0;
@@ -49,7 +69,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: var(--cor-fundo);
-    margin: 20px;
+    padding: 20px;
 }
 h1 {
     margin-bottom: 1.5rem;

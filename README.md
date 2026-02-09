@@ -1,6 +1,6 @@
 # Uso de Variáveis CSS (CSS Custom Properties)
 
-Demo: https://note-salaf.github.io/css-variables-demo/
+Demo: 
 
 Projeto simples desenvolvido para estudo e prática do uso de **variáveis CSS** (`:root`), com foco em organização de cores, consistência visual e facilidade de manutenção do estilo.
 
@@ -32,7 +32,6 @@ Demonstrar como centralizar cores e estilos em variáveis globais, facilitando:
 Este projeto tem caráter **didático** e foi desenvolvido com o objetivo de aprendizado, não sendo focado em produção ou frameworks.
 
 ## 🚀 Possíveis evoluções
-- Implementação de Dark Mode usando variáveis CSS
 - Separação de temas (claro/escuro)
 - Animações simples com `transition`
 - Responsividade aprimorada
@@ -40,4 +39,3 @@ Este projeto tem caráter **didático** e foi desenvolvido com o objetivo de apr
 ---
 
 Projeto criado para fins de estudo.
-
